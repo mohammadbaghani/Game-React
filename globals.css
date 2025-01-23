@@ -1,0 +1,156 @@
+.line {
+  border-radius: 50px;
+  width: 120px;
+  position: absolute;
+  height: 6px;
+  cursor: pointer;
+  background-color: rgb(218, 218, 218);
+}
+
+.vertical {
+  border-radius: 50px;
+  width: 105px;
+  position: absolute;
+  height: 6px;
+  transform: rotate(90deg);
+  background-color: rgb(218, 218, 218);
+}
+
+.redline {
+  background-color: rgb(204, 7, 7);
+  cursor: pointer;
+}
+
+.blueline {
+  background-color: rgb(7, 53, 204);
+  cursor: pointer;
+}
+
+.first-row-vertical {
+  right: -25px;
+}
+
+.second-row-vertical {
+  right: 106px;
+}
+
+.third-row-vertical {
+  right: 247px;
+}
+
+.fourth-row-vertical {
+  right: 387px;
+}
+
+.fifth-row-vertical {
+  right: 520px;
+}
+
+.first-row-horizonal {
+  right: 30px;
+}
+
+.second-row-horizonal {
+  right: 170px;
+}
+
+.third-row-horizonal {
+  right: 310px;
+}
+
+.fourth-row-horizonal {
+  right: 450px;
+}
+
+.fifth-row-horizonal {
+
+  right: 590px;
+}
+
+.second-column-horizonal {
+  top: 190px;
+
+}
+
+.first-column-horizonal {
+  top: 70px;
+}
+
+.third-column-horizonal {
+  top: 310px;
+
+}
+
+.fourth-column-horizonal {
+  top: 430px;
+}
+
+.fifth-column-horizonal {
+  top: 550px;
+}
+
+.first-column-vertical {
+  top: 130px;
+}
+
+.second-column-vertical {
+  top: 250px;
+}
+
+.third-column-vertical {
+  top: 370px;
+}
+
+.fourth-column-vertical {
+  top: 490px;
+}
+
+.parent-all {
+  list-style: none;
+  width: 100%;
+  position: relative;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  height: 720px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.child-parent-all {
+  list-style: none;
+  top: 40px;
+  width: 560px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  height: 820px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(94, 94, 94);
+  border: 0px solid rgb(121, 121, 121);
+}
+
+.whose-turn {
+  list-style: none;
+  top: 540px;
+  width: 600px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  height: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  border-radius: 10px;
+  color: white;
+}
+
+.bonus {
+  top: 610px;
+  font-size: 20px !important;
+}
